@@ -1,6 +1,6 @@
 {
   "name": "@kabigon/react-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "repository": {
@@ -39,7 +39,6 @@
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
     "prepublishOnly": "yarn run build",
-    "postinstall": "install-peers -f && cd example && yarn i",
     "start-example": "cd example && yarn start",
     "deploy-example": "cd example && yarn run deploy",
     "dev": "concurrently --kill-others \"yarn run build-watch\" \"yarn run start-example\"",
