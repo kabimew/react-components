@@ -1,3 +1,2 @@
-import Gap from './components/Gap';
-
-export { Gap };
+export { Gap } from './components/Gap';
+export { Input } from './components/Input';
