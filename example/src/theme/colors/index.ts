@@ -19,6 +19,27 @@ import { white } from './white';
 import { transparent } from './transparent';
 import { current } from './current';
 
+export { primary } from './primary';
+export { secondary } from './secondary';
+export { success } from './success';
+export { info } from './info';
+export { error } from './error';
+export { warning } from './warning';
+export { blue } from './blue';
+export { gray } from './gray';
+export { indigo } from './indigo';
+export { orange } from './orange';
+export { pink } from './pink';
+export { purple } from './purple';
+export { red } from './red';
+export { green } from './green';
+export { teal } from './teal';
+export { yellow } from './yellow';
+export { black } from './black';
+export { white } from './white';
+export { transparent } from './transparent';
+export { current } from './current';
+
 export const colors = {
   primary,
   secondary,

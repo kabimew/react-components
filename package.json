@@ -45,7 +45,7 @@
 		"prepublishOnly": "yarn run build",
 		"start-example": "cd example && yarn start",
 		"deploy-example": "cd example && yarn run deploy",
-		"dev": "concurrently --kill-others \"yarn run build-watch\" \"yarn run start-example\"",
+		"start": "concurrently --kill-others \"yarn run build-watch\" \"yarn run start-example\"",
 		"test": "ts-node test/test.ts",
 		"pretest": "yarn run build",
 		"test:lint": "eslint ./src/**/*.ts ./src/**/*.tsx ./example/src/**/*.ts ./example/src/**/*.tsx",
