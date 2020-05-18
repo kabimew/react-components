@@ -18,4 +18,4 @@ export const theme = {
   borderRadius,
 };
 
-export const Theme = typeof theme;
+export type Theme = typeof theme;

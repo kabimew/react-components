@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { variant } from 'styled-system';
+import { Theme } from '../../theme';
 
 type ButtonProps = {
   color?: 'primary' | 'secondary' | 'info' | 'success' | 'warning' | 'error';
@@ -12,7 +13,9 @@ export const Button = styled.button<ButtonProps>`
   &:focus {
     outline: none;
   }
-  font-weight: bold;
+  font-weight: ${({ theme }: { theme: Theme }): string => {
+    return theme.fontWeights.bold;
+  }};
   ${variant({
     prop: 'color',
     scale: 'buttons.colors',
