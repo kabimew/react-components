@@ -5,7 +5,7 @@ import { Theme } from '../../theme';
 type ButtonProps = {
   color?: 'primary' | 'secondary' | 'info' | 'success' | 'warning' | 'error';
   size?: 'small' | 'medium' | 'large';
-  variant?: 'outlined';
+  variant?: 'outlined' | 'contained';
 };
 
 export const Button = styled.button<ButtonProps>`

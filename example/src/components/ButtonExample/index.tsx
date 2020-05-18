@@ -31,6 +31,9 @@ export const ButtonExample: FC = () => {
         <Button color="primary" size="small" variant="outlined">
           Outlined
         </Button>
+        <Button color="primary" size="small" variant="contained">
+          Contained
+        </Button>
       </div>
     </>
   );
