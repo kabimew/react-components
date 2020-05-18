@@ -1,14 +1,13 @@
 import React, { FC } from 'react';
-import { Input } from './reactComponentLib';
+import { Input, Button } from './reactComponentLib';
 import { ThemeProvider } from 'styled-components';
-import { createMuiTheme } from '@material-ui/core/styles';
-
-const theme = createMuiTheme();
+import { theme } from './theme';
 
 export const App: FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Input bgcolor="white" />
+      <Input backgroundColor="secondary" />
+      <Button backgroundColor="primary" />
     </ThemeProvider>
   );
 };
