@@ -16,6 +16,7 @@ import {
   teal,
   yellow,
 } from './colors';
+import { buttons } from './buttons';
 
 export const theme = {
   colors: {
@@ -40,6 +41,7 @@ export const theme = {
     teal,
     yellow,
   },
+  buttons,
   fontSize: {
     xs: '0.75rem',
     sm: '0.875rem',
