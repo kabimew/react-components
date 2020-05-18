@@ -5,6 +5,7 @@ import { Theme } from '../../theme';
 type ButtonProps = {
   color?: 'primary' | 'secondary' | 'info' | 'success' | 'warning' | 'error';
   size?: 'small' | 'medium' | 'large';
+  variant?: 'outlined';
 };
 
 export const Button = styled.button<ButtonProps>`
@@ -16,6 +17,10 @@ export const Button = styled.button<ButtonProps>`
   font-weight: ${({ theme }: { theme: Theme }): string => {
     return theme.fontWeights.bold;
   }};
+  border-radius: ${({ theme }: { theme: Theme }): string => {
+    return theme.borderRadius.default;
+  }};
+  cursor: pointer;
   ${variant({
     prop: 'color',
     scale: 'buttons.colors',
@@ -24,6 +29,11 @@ export const Button = styled.button<ButtonProps>`
   ${variant({
     prop: 'size',
     scale: 'buttons.sizes',
+    variants: {},
+  })};
+  ${variant({
+    prop: 'variant',
+    scale: 'buttons.variants',
     variants: {},
   })};
 `;

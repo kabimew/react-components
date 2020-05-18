@@ -16,9 +16,21 @@ export const ButtonExample: FC = () => {
       </div>
       <div>SizeButton</div>
       <div>
-        <Button size="small">Small</Button>
-        <Button size="medium">Medium</Button>
-        <Button size="large">Large</Button>
+        <Button color="primary" size="small">
+          Small
+        </Button>
+        <Button color="secondary" size="medium">
+          Medium
+        </Button>
+        <Button color="error" size="large">
+          Large
+        </Button>
+      </div>
+      <div>VariantButton</div>
+      <div>
+        <Button color="primary" size="small" variant="outlined">
+          Outlined
+        </Button>
       </div>
     </>
   );
