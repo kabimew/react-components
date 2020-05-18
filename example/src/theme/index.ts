@@ -1,7 +1,30 @@
-import { blue, gray, green, indigo, orange, pink, purple, red, teal, yellow } from './colors';
+import {
+  primary,
+  secondary,
+  success,
+  info,
+  error,
+  warning,
+  blue,
+  gray,
+  green,
+  indigo,
+  orange,
+  pink,
+  purple,
+  red,
+  teal,
+  yellow,
+} from './colors';
 
 export const theme = {
   colors: {
+    primary,
+    secondary,
+    success,
+    info,
+    error,
+    warning,
     transparent: 'transparent',
     current: 'currentColor',
     black: '#000',

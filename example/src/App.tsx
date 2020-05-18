@@ -13,6 +13,18 @@ export const App: FC = () => {
       <Button color="secondary" size="medium">
         button
       </Button>
+      <Button color="warning" size="small">
+        button
+      </Button>
+      <Button color="error" size="medium">
+        button
+      </Button>
+      <Button color="info" size="small">
+        button
+      </Button>
+      <Button color="success" size="medium">
+        button
+      </Button>
     </ThemeProvider>
   );
 };

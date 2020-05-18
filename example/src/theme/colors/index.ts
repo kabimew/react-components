@@ -3,6 +3,7 @@ export { secondary } from './secondary';
 export { info } from './info';
 export { warning } from './warning';
 export { success } from './success';
+export { error } from './error';
 export { blue } from './blue';
 export { gray } from './gray';
 export { green } from './green';
