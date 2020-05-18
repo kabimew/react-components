@@ -16,21 +16,11 @@ export const Button = styled.button<ButtonProps>`
   ${variant({
     prop: 'color',
     scale: 'buttons.colors',
-    variants: {
-      primary: {},
-      secondary: {},
-      success: {},
-      info: {},
-      warning: {},
-      error: {},
-    },
+    variants: {},
   })};
   ${variant({
     prop: 'size',
     scale: 'buttons.sizes',
-    variants: {
-      small: {},
-      medium: {},
-    },
+    variants: {},
   })};
 `;
